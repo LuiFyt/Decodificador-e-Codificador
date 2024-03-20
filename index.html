@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador e Codificador de Texto</title>
+    <link rel="stylesheet" href="./estilo/style.css">
+</head>
+<body>
+    <header>        
+        <img class="logo" src="./assets/logo.png" alt="Logo do site">
+    </header>
+    <main class="principal">
+        <section class="sessaoDeEntrada">
+            <textarea class="principal_texto" id="texto-inserido" placeholder="Digite seu texto aqui"></textarea>
+            <div id="divzera">
+                <img id="alerta" src="./assets/alerta.png" alt="circulo de alerta">
+                <p class="adendo">Apenas letras minúsculas e sem acento</p>
+            </div>
+            <div class="principal_div">
+                <button onclick="criptografar()" class="principal_div_botao" id="botao_criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="principal_div_botao" id="botao_descriptografar" >Descriptografar</button>
+            </div>
+        </section>
+        <section class="sessaoDeSaida" id="sessaoDeSaida">
+            <img class="diminui" src="./assets/lupa.png" alt="Imagem de uma lupa"> <p class="paragrafo_cima">Nenhuma mensagem encontrada</p> <p class="paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p></input>
+        </section>
+    </main>
+    <footer class="rodape">
+        <div class="div-redes-sociais">
+            <a href="https://github.com/LuiFyt"><img id="github" src="./assets/github.png" alt="logo do github"></a>
+            <a href="https://www.instagram.com/luifyt/"><img id="instagram" src="./assets/instagram.png" alt="logo do instagram"></a>
+        </div>
+        <h3>Desenvolvido por LuiFyt</h3>
+    </footer>
+</body>
+    <script src="./script/script.js"></script>
+</html>
