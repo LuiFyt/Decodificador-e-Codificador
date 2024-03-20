@@ -163,6 +163,9 @@ header {
 }
 
 @media (max-width:1440px) {
+    header {
+        padding: 1.25rem 0 0 0;
+    }
     .logo {
         width: 8%;
         height: 100%;
@@ -184,60 +187,12 @@ header {
     }
 }
 @media (max-width:768px) {
-    header {
-        padding: 1rem 0 0 0rem;
-    }
-    .logo {
-        width: 15%;
-    }
     .principal {
         display: flex;
         flex-direction: column;
     }
-    .principal_div{
-        display: flex;
-        gap: 50px;
-        justify-content: center;
-        margin: 10px 0 0 38px;
-    }
-    .sessaoDeEntrada {
-        height: 600px;
-        width: 90%;
-        padding: 5px 0 0 20px;
-    }
-    .principal_texto {
-        padding: 0 0 0 10px;
-        font-size: 1.5rem;
-        width: 100%;
-        height: 80%;
-    }
-    .principal_div_botao {
-        width: 20rem;
-        height: 4.5rem;
-        font-size: 1.2rem;
-    }
-    .sessaoDeSaida {
-        height: 250px;
-        width: 90%;
-        margin: 10px 0 0 38px;
-    }
-    .diminui {
-        height: 0;
-        padding: 0;
-    }
-    .paragrafo {
-        align-items: center;
-        font-family: var(--fonte-primaria);
-        font-weight: 400;
-        font-size: 1rem;
-    }
-    .rodape{
-        height: 100%;
-    }
-}
-@media (max-width:375px) {
     .logo {
-        width: 22%;
+        width: 13%;
     }
     .sessaoDeEntrada {
         height: 500px;
@@ -254,13 +209,17 @@ header {
     .adendo {
         font-size: 0.8rem;
     }
+    .principal_texto {
+        font-size: 1.3rem;
+        padding: 0 0 0 20px;
+    }
     .principal_div {
         flex-direction: column;
         gap: 20px;
         margin: 10px 0 0 7px;
     }
     .principal_div_botao {
-        width: 20rem;
+        width: 44rem;
         height: 4rem;
         font-size: 1rem;
     }
@@ -294,5 +253,20 @@ header {
     }
     #texto-inserido-dois {
         font-size: 1.5rem;
+    }
+    .sessaoDeSaida {
+        height: 250px;
+        width: 90%;
+        margin: 10px 0 0 36px;
+    }
+    .diminui {
+        height: 0;
+        padding: 0;
+    }
+    .paragrafo {
+        align-items: center;
+        font-family: var(--fonte-primaria);
+        font-weight: 400;
+        font-size: 1rem;
     }
 }
