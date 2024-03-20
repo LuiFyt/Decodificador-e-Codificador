@@ -272,7 +272,7 @@ header {
 }
 @media (max-width: 480px) {
     .principal_div_botao {
-        width: 27rem;
+        width: 25rem;
         height: 3.5rem;
     }
     .sessaoDeEntrada {
